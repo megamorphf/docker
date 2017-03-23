@@ -22,6 +22,7 @@ RUN set -x; \
         && pip install psycogreen==1.0 \
         && pip install pyxb \
         && pip install xmltodict \
+        && pip install num2words \
         && pip install xlsxwriter
 
 # Install Odoo
